@@ -12,6 +12,7 @@ Ministry of Ayush
 
 ## Idea
 
+Create a Virtual Herbal Garden web and mobile application that brings the experience of exploring a herbal garden into the digital space. Users can interact with 3D models of plants, learn about their medicinal benefits, and navigate themed virtual tours. The application promotes traditional AYUSH knowledge using immersive technology, supporting both educational and awareness goals.
 
 ## Proposed Solution / Architecture Diagram
 
@@ -21,6 +22,65 @@ Ministry of Ayush
 
 ## Technology Stack
 
+Frontend:
+
+Web: React.js, Tailwind CSS, Three.js
+
+Mobile: Flutter (or React Native)
+
+3D Visualization: Unity WebGL / Three.js
+
+Backend:
+
+Node.js + Express or Python Flask
+
+REST or GraphQL API
+
+Database:
+
+MongoDB (NoSQL for flexibility) or PostgreSQL (if relational structure preferred)
+
+Media:
+
+AWS S3 / Firebase Storage
+
+Audio: MP3, TTS-generated narration
+
+Video: .mp4 or embedded YouTube/Vimeo
+
+CMS:
+
+Strapi, Sanity.io, or Direct Admin Panel
+
+Deployment:
+
+Hosting: AWS/GCP
+
+CI/CD: GitHub Actions / Docker / Vercel / Netlify (Web)
+
+Authentication:
+
+Firebase Auth or Auth0 for user login/bookmarking
+
+AI Integration (Optional Future Phase):
+
+ML Recommendation for similar herbs
+
+NLP-based chatbot for Q&A
 
 ## Dependencies
 
+1) Three.js / Babylon.js (3D rendering)
+
+2) React or Flutter SDK
+
+3) Firebase or AWS SDK
+
+4) MongoDB/PostgreSQL drivers
+
+5) CMS API (Strapi/Sanity)
+
+6) Optional: TensorFlow.js / HuggingFace (if ML is used)
+
+7) Hosting tools (Docker, Nginx, etc.)
+   
