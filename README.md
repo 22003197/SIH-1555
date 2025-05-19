@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date: 19-05-2025
+## Register Number: 212222220044
+## Name: Shruthi S
 ## Problem Title
 SIH 1555: Create a Virtual Herbal Garden that provides an interactive, educational, and immersive experience to users, showcasing the diverse range of medicinal plants used in AYUSH (Ayurveda, Yoga & Naturopathy, Unani, Siddha, and Homeopathy).
 ## Problem Description
@@ -16,6 +16,7 @@ Create a Virtual Herbal Garden web and mobile application that brings the experi
 
 ## Proposed Solution / Architecture Diagram
 
+![Uploading hackathon - ig-1.png…]()
 
 ## Use Cases
 
