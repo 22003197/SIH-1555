@@ -12,7 +12,7 @@ Ministry of Ayush
 
 ## Idea
 
-Create a Virtual Herbal Garden web and mobile application that brings the experience of exploring a herbal garden into the digital space. Users can interact with 3D models of plants, learn about their medicinal benefits, and navigate themed virtual tours. The application promotes traditional AYUSH knowledge using immersive technology, supporting both educational and awareness goals.
+Create a web-based Virtual Herbal Garden platform that allows users to explore medicinal plants interactively with 3D visuals, multimedia content, and detailed information.
 
 ## Proposed Solution / Architecture Diagram
 
@@ -26,63 +26,47 @@ Create a Virtual Herbal Garden web and mobile application that brings the experi
 
 Frontend:
 
-Web: React.js, Tailwind CSS, Three.js
+React.js (UI Framework)
 
-Mobile: Flutter (or React Native)
+Three.js (3D plant model rendering)
 
-3D Visualization: Unity WebGL / Three.js
+Tailwind CSS or Bootstrap (for styling)
+
+React Router (for page navigation)
 
 Backend:
 
-Node.js + Express or Python Flask
+Node.js + Express.js (API server)
 
-REST or GraphQL API
+MongoDB (Database for plant info)
 
-Database:
+Firebase (Optional: Authentication, storage)
 
-MongoDB (NoSQL for flexibility) or PostgreSQL (if relational structure preferred)
+3D Models & Multimedia:
 
-Media:
+Blender or Sketchfab (To create/export 3D plant models in GLTF format)
 
-AWS S3 / Firebase Storage
+Cloudinary or Firebase Storage (Host images/videos)
 
-Audio: MP3, TTS-generated narration
+Optional Enhancements:
 
-Video: .mp4 or embedded YouTube/Vimeo
+Web Speech API (for audio descriptions)
 
-CMS:
-
-Strapi, Sanity.io, or Direct Admin Panel
-
-Deployment:
-
-Hosting: AWS/GCP
-
-CI/CD: GitHub Actions / Docker / Vercel / Netlify (Web)
-
-Authentication:
-
-Firebase Auth or Auth0 for user login/bookmarking
-
-AI Integration (Optional Future Phase):
-
-ML Recommendation for similar herbs
-
-NLP-based chatbot for Q&A
+WebGL/AR.js (for optional Augmented Reality)
 
 ## Dependencies
 
-1) Three.js / Babylon.js (3D rendering)
+1) three (3D rendering)
 
-2) React or Flutter SDK
+2) react-three-fiber (React wrapper for Three.js)
 
-3) Firebase or AWS SDK
+3) axios (API calls)
 
-4) MongoDB/PostgreSQL drivers
+4) mongoose (MongoDB object modeling)
 
-5) CMS API (Strapi/Sanity)
+5) express (Backend server)
 
-6) Optional: TensorFlow.js / HuggingFace (if ML is used)
+6) cors, dotenv (for server config)
 
-7) Hosting tools (Docker, Nginx, etc.)
+7) firebase (if using Firebase features)
    
