@@ -16,7 +16,7 @@ Create a Virtual Herbal Garden web and mobile application that brings the experi
 
 ## Proposed Solution / Architecture Diagram
 
-![Uploading hackathon - ig-1.png…]()
+![hackathon - ig-1](https://github.com/user-attachments/assets/c8388c39-0517-4eeb-881d-b387d987082b)
 
 ## Use Cases
 
