@@ -20,6 +20,7 @@ Create a Virtual Herbal Garden web and mobile application that brings the experi
 
 ## Use Cases
 
+![hackathon-ig-2](https://github.com/user-attachments/assets/b9a6d28d-17da-4463-a9f1-b0e66943ca4c)
 
 ## Technology Stack
 
